@@ -1,0 +1,7 @@
+@import url(./_large/section_large.css);
+@import url(./_medium/section_medium.css);
+@import url(./_small/section_small.css);
+
+.section {
+  margin: 0 auto;
+}

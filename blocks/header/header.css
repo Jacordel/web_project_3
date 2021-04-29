@@ -5,5 +5,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 10%;
+  align-items: center;
+  padding-top: 20px;
+  margin: 0 auto;
 }

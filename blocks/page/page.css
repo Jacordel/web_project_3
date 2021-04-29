@@ -1,5 +1,6 @@
+@import url(./__content/page__content.css);
+
 .page {
   background-color: #2A2C2F;
-  font-family: Inter;
-  overflow: hidden;
+  font-family: 'Inter', 'sans-serif';
 }
