@@ -6,8 +6,15 @@
 
 .place {
   display: grid;
-  grid-template-columns: 460px 484px;
-  grid-gap: 40px;
+  grid-template-columns: 460px 1fr;
+  grid-gap: 48px 40px;
   padding-bottom: 80px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    grid-gap: 48px 32px;
+  }
 }

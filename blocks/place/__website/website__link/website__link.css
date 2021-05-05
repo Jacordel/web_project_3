@@ -1,4 +1,9 @@
 .website__link {
   text-decoration: underline;
   color: #fff;
+  transition: 0.3s;
+}
+
+.website__link:hover {
+  opacity: 0.8;
 }

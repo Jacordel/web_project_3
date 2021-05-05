@@ -6,5 +6,13 @@
   text-transform: uppercase;
   max-width: 984px;
   margin: 0 auto;
-  padding-top: 10px;
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    font-size: 10px;
+    padding-left: 24px;
+  }
+  
 }
