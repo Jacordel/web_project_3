@@ -11,7 +11,7 @@
   transition: opacity 0.3s;
 }
 
-.cover__overlay:hover {
+.cover__overlay:hover .cover__text{
     background-color: #2A2C2F;
     opacity: 0.8;
 }
