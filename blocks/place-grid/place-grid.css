@@ -43,6 +43,7 @@
     min-width: 100%;
     grid-template-columns: 1fr;
     grid-gap: 30px;
+    padding-bottom: 48px;
   }
 
   .place-grid:last-of-type {

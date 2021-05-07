@@ -1,7 +1,6 @@
 .page__content {
   color: #fff;
   min-width: 320px;
-  max-width: 1280px;
+  max-width: 1184px;
   margin: 0 auto;
-  overflow: hidden;
 }

@@ -3,3 +3,10 @@
 .place-grid__paragraphs {
   margin: 0 auto;
 }
+
+@media screen and (max-width: 320px) {
+  .place-grid__paragraphs {
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+}
