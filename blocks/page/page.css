@@ -1,6 +1,11 @@
 @import url(./__content/page__content.css);
+@import url(./__small-section/page__small-section.css);
+@import url(./__medium-section/page__medium-section.css);
+@import url(./__large-section/page__large-section.css);
 
 .page {
   background-color: #2A2C2F;
   font-family: 'Inter', 'sans-serif';
+  margin: 0 auto;
 }
+

@@ -11,8 +11,11 @@
   background-image: url(../../images-project-3/cover-route-66.jpg);
   background-size: cover;
   background-clip: content-box;
+  background-position: center;
   display: flex;
+  flex-direction: column;
   position: relative;
+  z-index: -2;
 }
 
 @media screen and (max-width: 1024px) {

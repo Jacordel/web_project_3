@@ -1,19 +1,12 @@
+@import url(./__menu/footer__menu.css);
 @import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
+  max-width: 1184px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 1184px;
-  color: #fff;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    padding: 0 48px;
-  }
-  
+  padding: 0 48px;
 }

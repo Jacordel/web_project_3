@@ -1,0 +1,12 @@
+.place-grid__link {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+  transition: opacity 0.3s;
+}
+
+.place-grid__link:hover {
+  opacity: 0.8;
+}
+

@@ -13,10 +13,3 @@
     padding-top: 50px;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .lead {
-    padding-top: 50px;
-  }
-  
-}
