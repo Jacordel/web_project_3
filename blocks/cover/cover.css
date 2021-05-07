@@ -2,25 +2,37 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__text/cover__text.css);
+@import url(./__link/cover__link.css);
 
 .cover {
   margin: 0 auto;
-  min-width: 1184px;
   min-height: 740px;
-  padding-bottom: 92px; 
   background-image: url(../../images-project-3/cover-route-66.jpg);
   background-size: cover;
-  background-clip: content-box;
   background-position: center;
   display: flex;
   flex-direction: column;
   position: relative;
-  z-index: -2;
 }
+
 
 @media screen and (max-width: 1024px) {
   .cover {
-    min-width: 1024px;
+    min-width: 100%;
     min-height: 640px;
   }  
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-width: 100%;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-width: 100%;
+    min-height: 200px;
+  }
 }
