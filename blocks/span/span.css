@@ -1,1 +1,4 @@
-@import url(./_bold/span_bold.css);
+.span {
+  font-family: 'Inter-BoldItalic', 'Arial', 'sans-serif';
+  font-weight: bold;
+}
