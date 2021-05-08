@@ -7,14 +7,23 @@
 .cover {
   margin: 0 auto;
   min-height: 740px;
-  background-image: url(../../images-project-3/cover-route-66.jpg);
-  background-size: cover;
-  background-position: center;
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
+  .cover::before {
+    content: '';
+    background-image: url(../../images-project-3/cover-route-66.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
+  }
 
 @media screen and (max-width: 1024px) {
   .cover {
