@@ -1,8 +1,14 @@
 .footer__link {
+  font-family: 'Inter-Regular', 'Arial', 'sans-serif';
   color: #fff;
   text-decoration: none;
   font-size: 16px;
   line-height: 18px;
+  transition: opacity 0.3s;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {

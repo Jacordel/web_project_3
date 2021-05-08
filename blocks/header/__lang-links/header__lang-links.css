@@ -2,4 +2,5 @@
   list-style: none;
   display: flex;
   flex-direction: row;
+  font-family: 'Inter-Regular', 'Arial', 'sans-serif';
 }
