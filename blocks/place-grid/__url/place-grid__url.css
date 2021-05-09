@@ -1,7 +1,9 @@
 .place-grid__url {
-  font-family: 'Inter-Regular', 'Arial', 'sans-serif';
+  font-family: 'Inter', 'Arial', 'sans-serif';
   font-size: 12px;
+  font-weight: 400;
   color: #aaa;
   letter-spacing: 0.2em;
   padding-bottom: 4px;
+  margin: 0;
 }

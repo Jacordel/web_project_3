@@ -10,9 +10,5 @@
 
 .cover__link:hover {
   background-color: #2A2C2F;
-  opacity: 0.8;
-}
-
-.cover__link:active {
-  text-decoration: none;
+  opacity: 0.5;
 }

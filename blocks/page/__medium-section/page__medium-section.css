@@ -5,7 +5,6 @@
 
 @media screen and (max-width: 1024px) {
   .page__medium-section {
-    margin: 0 auto;
     max-width: 928px;
   }
 }
