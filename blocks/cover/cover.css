@@ -24,7 +24,7 @@
   bottom: 0;
   right: 0;
   opacity: 0.3;
-  transition: opacity 0.3s
+  transition: opacity 0.3s;
 } 
 
 .cover:hover::before {
