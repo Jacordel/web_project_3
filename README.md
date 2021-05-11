@@ -12,3 +12,7 @@ This is a project about traveling across the US. This project helps me understan
 **Technologies**
 
 In this project with solely used HTML5 and CSS. To differentiate from past projects we needed to add responsiveness to the website.
+
+**Link**
+
+[Here is the Link for my project](https://jacordel.github.io/web_project_3/index.html "The Perfect US Trip")
