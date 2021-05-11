@@ -7,7 +7,7 @@
   margin: 0 auto;
   display: grid;
   max-width: 984px;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: 460px 1fr;
   grid-gap: 48px 40px;
   padding-bottom: 80px;
 }
@@ -19,7 +19,7 @@
 @media screen and (max-width: 1024px) {
   .place-grid {
     max-width: 928px;
-    grid-template-columns: 440px 456px;
+    grid-template-columns: 440px 1fr;
     grid-gap: 48px 32px;
   }
 }
@@ -27,7 +27,7 @@
 @media screen and (max-width: 768px) {
   .place-grid {
     max-width: 720px;
-    grid-template-columns: 340px 352px;
+    grid-template-columns: 340px 1fr;
     grid-gap: 48px 28px;
     padding-bottom: 73px;
   }
