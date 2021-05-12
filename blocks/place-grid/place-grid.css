@@ -26,10 +26,10 @@
 
 @media screen and (max-width: 768px) {
   .place-grid {
+    padding: 0 24px 73px 24px;
     max-width: 720px;
-    grid-template-columns: 340px 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 48px 28px;
-    padding-bottom: 73px;
   }
 
   .place-grid:last-of-type {
@@ -43,7 +43,7 @@
     min-width: 100%;
     grid-template-columns: 1fr;
     grid-gap: 30px;
-    padding-bottom: 48px;
+    padding: 0 0 48px 0;
   }
 
   .place-grid:last-of-type {

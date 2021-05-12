@@ -1,6 +1,5 @@
 .page__small-section {
   max-width: 690px;
-  padding: 0 442px 0 148px;
 }
 
 @media screen and (max-width: 1024px) {
