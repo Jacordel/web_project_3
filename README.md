@@ -15,4 +15,4 @@ In this project with solely used HTML5 and CSS. To differentiate from past proje
 
 **Link**
 
-[Here is the Link for my project](https://jacordel.github.io/web_project_3/index.html "The Perfect US Trip")
+[Here is the Link for my project](https://jacordel.github.io/web_project_3/ "The Perfect US Trip")
