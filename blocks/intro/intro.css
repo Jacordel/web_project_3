@@ -4,20 +4,26 @@
 @import url(./__list/intro__list.css);
 
 .intro {
-  margin: 0 auto;
-  padding-bottom: 92px;
+  margin: 0;
+  padding: 0 0 92px 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding-left: 48px
+  }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 720px;
-    padding-bottom: 88px;
+    padding: 0 24px 88px 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
     max-width: 288px;
-    padding-bottom: 64px;
+    padding: 0 16px 64px 16px;
   }
 }
